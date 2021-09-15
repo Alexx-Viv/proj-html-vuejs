@@ -12,10 +12,4 @@ export default {
 };
 </script>
 
-<style scoped>
-div {
-  background-color: red;
-  width: 100%;
-  height: 500px;
-}
-</style>
+<style></style>
