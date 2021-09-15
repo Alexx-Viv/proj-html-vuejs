@@ -2,25 +2,22 @@
   <nav>
     <div class="container">
       <TopNav />
-      <div id="bottom-nav" class="row"></div>
+      <BottomNav />
     </div>
   </nav>
 </template>
 
 <script>
 import TopNav from './TopNav.vue';
+import BottomNav from './BottomNav.vue';
 
 export default {
   name: 'Header',
   components: {
     TopNav,
+    BottomNav,
   },
 };
 </script>
 
-<style scoped>
-#bottom-nav {
-  height: 105px;
-  background-color: goldenrod;
-}
-</style>
+<style></style>
