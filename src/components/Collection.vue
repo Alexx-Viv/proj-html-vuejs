@@ -3,7 +3,7 @@
     <div
       v-for="collection in collections"
       :key="collection.headline"
-      class="column p-0"
+      class="col-4 p-0"
     >
       <img :src="collection.src" alt="" />
       <div
@@ -48,10 +48,9 @@ export default {
 </script>
 
 <style scoped>
-.column {
+.col-4 {
   position: relative;
   height: 450px;
-  width: calc(100% / 3);
 }
 img {
   position: absolute;
