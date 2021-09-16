@@ -4,7 +4,7 @@
     <div class="col-2 d-flex align-items-center">
       <a
         v-for="social in socialLinks"
-        :key="social"
+        :key="social.id"
         class="icon"
         :href="social.link"
       >
@@ -33,10 +33,10 @@ export default {
   data() {
     return {
       socialLinks: [
-        { icon: 'fa-facebook-f', link: 'https://vuejs.org/' },
-        { icon: 'fa-twitter', link: 'https://vuejs.org/' },
-        { icon: 'fa-instagram', link: 'https://vuejs.org/' },
-        { icon: 'fa-youtube', link: 'https://vuejs.org/' },
+        { id: 13, icon: 'fa-facebook-f', link: 'https://vuejs.org/' },
+        { id: 14, icon: 'fa-twitter', link: 'https://vuejs.org/' },
+        { id: 15, icon: 'fa-instagram', link: 'https://vuejs.org/' },
+        { id: 16, icon: 'fa-youtube', link: 'https://vuejs.org/' },
       ],
     };
   },

@@ -14,7 +14,7 @@
       <span
         class="link h-100 d-flex align-items-center"
         v-for="link in navLinks"
-        :key="link"
+        :key="link.id"
         :class="{ active: link.isActive }"
         >{{ link.name }}<i v-if="link.isChevron" class="fas fa-chevron-down"></i
       ></span>
@@ -30,12 +30,12 @@ export default {
   data() {
     return {
       navLinks: [
-        { name: 'Home', isChevron: true, isActive: true },
-        { name: 'Shop', isChevron: true, isActive: false },
-        { name: 'Products', isChevron: true, isActive: false },
-        { name: 'Categories', isChevron: true, isActive: false },
-        { name: 'News', isChevron: false, isActive: false },
-        { name: 'Elements', isChevron: true, isActive: false },
+        { id: 17, name: 'Home', isChevron: true, isActive: true },
+        { id: 18, name: 'Shop', isChevron: true, isActive: false },
+        { id: 19, name: 'Products', isChevron: true, isActive: false },
+        { id: 20, name: 'Categories', isChevron: true, isActive: false },
+        { id: 21, name: 'News', isChevron: false, isActive: false },
+        { id: 22, name: 'Elements', isChevron: true, isActive: false },
       ],
     };
   },

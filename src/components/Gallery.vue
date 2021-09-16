@@ -3,7 +3,7 @@
     <div class="icon d-flex align-items-center justify-content-end">
       <i class="fas fa-chevron-left"></i>
     </div>
-    <div v-for="image in imagesList" :key="image" class="col">
+    <div v-for="image in imagesList" :key="image.id" class="col">
       <img :src="image.src" alt="" />
       <div class="cards">
         <div

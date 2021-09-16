@@ -2,7 +2,7 @@
   <div class="row m-0">
     <div
       v-for="collection in collections"
-      :key="collection.headline"
+      :key="collection.id"
       class="col-4 p-0"
     >
       <img :src="collection.src" alt="" />
