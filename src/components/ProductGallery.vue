@@ -108,7 +108,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../assets/scss/style.scss';
 .col {
   background: #f6f6f6;
   padding: 20px 0;
@@ -158,7 +159,7 @@ i {
   border-radius: 50%;
 }
 .price {
-  color: #427ed1;
+  color: $secondary-color;
 }
 .col:hover {
   background: white;

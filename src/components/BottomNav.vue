@@ -42,7 +42,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../assets/scss/style.scss';
 #bottom-nav {
   height: 105px;
   max-width: 950px;
@@ -54,14 +55,14 @@ export default {
 }
 .active {
   color: #79a2da;
-  border-top: 2px solid #427ed1;
+  border-top: 2px solid $secondary-color;
 }
 .fa-chevron-down {
   margin-left: 5px;
 }
 .shop-button {
   color: white;
-  background-color: #427ed1;
+  background-color: $secondary-color;
   font-size: 0.8rem;
   font-weight: bold;
   text-transform: uppercase;

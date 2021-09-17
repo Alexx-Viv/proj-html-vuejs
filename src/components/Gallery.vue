@@ -44,7 +44,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../assets/scss/style.scss';
 .col {
   height: 200px;
   position: relative;
@@ -84,7 +85,7 @@ a {
   font-size: 0.7rem;
 }
 a:hover {
-  color: #427ed1;
+  color: $secondary-color;
 }
 
 .fa-chevron-right,

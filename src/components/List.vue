@@ -33,9 +33,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../assets/scss/style.scss';
 h2 {
   font-weight: lighter;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 h4 {
   font-size: 0.8rem;
@@ -45,7 +49,7 @@ img {
   margin-top: -15px;
 }
 .fa-star {
-  color: #427ed5;
+  color: $secondary-color;
   margin-bottom: 10px;
 }
 span {

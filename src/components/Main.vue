@@ -49,6 +49,7 @@
         <List title="Latest Reviews" :itemsList="reviews" />
       </div>
     </section>
+    <brands />
   </div>
 </template>
 
@@ -62,6 +63,7 @@ import Offers from './Offers.vue';
 import Testimonials from './Testimonials.vue';
 import Blog from './Blog.vue';
 import List from './List.vue';
+import Brands from './Brands.vue';
 
 export default {
   name: 'Main',
@@ -75,6 +77,7 @@ export default {
     Testimonials,
     Blog,
     List,
+    Brands,
   },
   data() {
     return {
